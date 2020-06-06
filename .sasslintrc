@@ -1,0 +1,105 @@
+{
+  "options": {
+    "merge-default-rules": false,
+    "formatter": "html",
+    "output-file": "linters/sass-lint.html",
+    "max-warnings": 1000
+  },
+  "files": {
+    "include": "src/assets/styles/*.s+(a|c)ss",
+    "ignore": [
+      "sass/vendor/**/*.*",
+    ]
+  },
+  "rules": {
+    "attribute-quotes": [
+      2,
+      include: true
+    ],
+    "bem-depth": [
+      2,
+      max-depth: 3
+    ],
+    brace-style: [
+      2,
+      style: '1tbs'
+    ],
+    "class-name-format": [
+      2,
+      convention: "^[-_a-z0-9]+$"
+    ],
+    clean-import-paths: [
+      2,
+      leading-underscore: false
+    ],
+    empty-args: [
+      2,
+      include: true,
+    ],
+    "extends-before-mixins": 2,
+    "extends-before-declarations": 2,
+    "function-name-format": [
+      allow-leading-underscore: false,
+      convention: hyphenatedbem
+    ],
+    "hex-length": [
+      2,
+      style: long    
+    ],
+    "hex-notation": [
+      2,
+      {
+        "style": "uppercase"
+      }
+    ],
+    id-name-format: [
+      allow-leading-underscore: false
+    ],
+    "indentation": [
+      2,
+      {
+        "size": 4
+      }
+    ],    
+    "mixins-before-declarations": [
+      2,
+      {
+        "exclude": [
+          "breakpoint",
+          "mq"
+        ]
+      }
+    ],
+    "mixin-name-format": [
+      allow-leading-underscore: false,
+    ],
+    "nesting-depth": [
+      2,
+      max-depth: 2
+    ],
+    "no-css-comments": 2,
+    "no-debug": 1,
+    "no-empty-rulesets": 2,
+    "no-ids": 2,
+    "no-important": 2,
+    "no-trailing-whitespace": 2,
+    "no-warn": 1,
+    "one-declaration-per-line": 2,
+    "property-sort-order": [
+      2,      
+      "order": "alphabetical",
+      "ignore-custom-properties": true    
+    ],
+    "quotes": [
+      2,
+      style: double
+    ],
+    "single-line-per-selector": 2,
+    "space-after-colon": true,
+    "url-quotes": true,
+    "zero-unit": [
+      2,
+      include: false
+    ]
+  }
+}
