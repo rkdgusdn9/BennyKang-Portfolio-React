@@ -1,0 +1,103 @@
+.nav-bar {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    display: flex;
+    background-color: #e6e6e6;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.logo-container {
+    display: flex;
+    align-self: center;
+    margin-left: 10%;
+    .hamburger-container {
+        visibility: hidden;
+        align-self: center;
+        display: flex;
+        justify-content: flex-end;
+        .hamburger-menu {
+            text-decoration: none;
+            list-style-type: none;
+        }
+    }
+}
+
+.nav-items-container {
+    display: block;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.list-items {
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    width: 100%;
+
+    &__text {
+        display: flex;
+        font-size: 18px;
+        margin-right: 28px;
+        color: dimgray;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+            color: red;
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-container {
+        margin-left: 5%;
+    }
+    .nav-items-container {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .logo-container {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .logo-container {
+        width: 100%;
+    }
+
+    .hamburger-container {
+        visibility: visible;
+        display: block;
+        width: 100%;
+        margin-right: 4%;
+        .hamburger-menu {
+            visibility: visible;
+            display: flex;
+            color: white;
+        }
+    }
+    .nav-items-container {
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        .list-items {
+            flex-direction: column;
+            &__text {
+                padding-top: 2%;
+                padding-bottom: 2%;
+            }
+        }
+    }
+}
