@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../images/Benny.png";
-import hamburger from "../images/Hamburger.png";
+import haburger from "../images/Hamburger.png";
 
 export const NavBar: React.FC = () => {
     const [setActive, setActiveState] = useState("");
@@ -17,13 +17,14 @@ export const NavBar: React.FC = () => {
                 </a>
 
                 <div className="hamburger-container">
-                    <a>
-                        <img
-                            className={`hamburger-menu ${setActive}`}
-                            src={hamburger}
-                            onClick={toggleHamburger}
-                        />
-                    </a>
+                    <div
+                        className={`hamburger-menu ${setActive}`}
+                        onClick={toggleHamburger}
+                    >
+                        <span className="bar"></span>
+                        <span className="bar"></span>
+                        <span className="bar"></span>
+                    </div>
                 </div>
             </div>
 
