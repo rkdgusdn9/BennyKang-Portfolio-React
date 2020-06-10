@@ -115,6 +115,7 @@
         display: flex;
         font-size: 18px;
         margin-right: 28px;
+        letter-spacing: 2px;
         color: dimgray;
         text-decoration: none;
         text-transform: uppercase;
@@ -127,10 +128,10 @@
 
 @media screen and (max-width: 768px) {
     .logo-container {
-        margin-left: 5%;
+        margin-left: 2%;
     }
     .nav-items-container {
-        margin-right: 0;
+        margin-left: -12%;
     }
 }
 
