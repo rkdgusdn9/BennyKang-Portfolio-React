@@ -8,11 +8,13 @@ import { Footer } from "./features/footer";
 function App() {
     return (
         <>
-            <NavBar />
-            <BrowserRouter>
-                <Route path="/" component={HomePage} exact />
-            </BrowserRouter>
-            <Footer />
+            <div className="page-wrap">
+                <NavBar />
+                <BrowserRouter>
+                    <Route path="/" component={HomePage} exact />
+                </BrowserRouter>
+                <Footer />
+            </div>
         </>
     );
 }
