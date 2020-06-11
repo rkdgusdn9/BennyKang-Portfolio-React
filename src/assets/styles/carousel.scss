@@ -1,0 +1,25 @@
+.carousel-root {
+    width: 800px;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-root {
+        width: 400px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .carousel-root {
+        width: 250px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .carousel-root {
+        width: 230px;
+        margin: auto;
+    }
+}
