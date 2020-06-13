@@ -21,75 +21,79 @@ import kid from "../images/carous/Kid.png";
 
 export const CarouSel: React.FC = () => {
     return (
-        <Carousel autoPlay infiniteLoop className="carousel-slider">
-            <div>
-                <img src={data} />
-                <p className="legend">Datacom Christmas</p>
-            </div>
-            <div>
-                <img src={data1} />
-                <p className="legend">Visit the client</p>
-            </div>
-            <div>
-                <img src={msa} />
-                <p className="legend">MSA Launch</p>
-            </div>
-            <div>
-                <img src={bmx} />
-                <p className="legend">Internship</p>
-            </div>
-            <div>
-                <img src={bmx1} />
-                <p className="legend">Showcase</p>
-            </div>
-            <div>
-                <img src={bmx2} />
-                <p className="legend">Xamarin</p>
-            </div>
-            <div>
-                <img src={bmx3} />
-                <p className="legend">Scrum</p>
-            </div>
-            <div>
-                <img src={bmx4} />
-                <p className="legend">Final presentation</p>
-            </div>
-            <div>
-                <img src={grad} />
-                <p className="legend">Graduation</p>
-            </div>
-            <div>
-                <img src={team} />
-                <p className="legend">Team Trello</p>
-            </div>
-            <div>
-                <img src={gym} />
-                <p className="legend">Work out</p>
-            </div>
-            <div>
-                <img src={sky} />
-                <p className="legend">I rule the table</p>
-            </div>
-            <div>
-                <img src={sky1} />
-                <p className="legend">Table game dealer</p>
-            </div>
-            <div>
-                <img src={bann} />
-                <p className="legend">General Manager</p>
-            </div>
-            <div>
-                <img src={nonu} />
-                <p className="legend">All Black Nonu</p>
-            </div>
-            <div>
-                <img src={babies} />
-                <p className="legend">My babies</p>
-            </div>
-            <div>
-                <img src={kid} />
-                <p className="legend">Kido</p>
-            </div>
-        </Carousel>
+        <div className="gallery-container">
+            <div className="gallery-container__heading">Gallery</div>
+            <div className="gallery-container__sub">My album</div>
+            <Carousel autoPlay infiniteLoop className="carousel-slider">
+                <div>
+                    <img src={data} />
+                    <p className="legend">Datacom Christmas</p>
+                </div>
+                <div>
+                    <img src={data1} />
+                    <p className="legend">Visit the client</p>
+                </div>
+                <div>
+                    <img src={msa} />
+                    <p className="legend">MSA Launch</p>
+                </div>
+                <div>
+                    <img src={bmx} />
+                    <p className="legend">Internship</p>
+                </div>
+                <div>
+                    <img src={bmx1} />
+                    <p className="legend">Showcase</p>
+                </div>
+                <div>
+                    <img src={bmx2} />
+                    <p className="legend">Xamarin</p>
+                </div>
+                <div>
+                    <img src={bmx3} />
+                    <p className="legend">Scrum</p>
+                </div>
+                <div>
+                    <img src={bmx4} />
+                    <p className="legend">Final presentation</p>
+                </div>
+                <div>
+                    <img src={grad} />
+                    <p className="legend">Graduation</p>
+                </div>
+                <div>
+                    <img src={team} />
+                    <p className="legend">Team Trello</p>
+                </div>
+                <div>
+                    <img src={gym} />
+                    <p className="legend">Work out</p>
+                </div>
+                <div>
+                    <img src={sky} />
+                    <p className="legend">I rule the table</p>
+                </div>
+                <div>
+                    <img src={sky1} />
+                    <p className="legend">Table game dealer</p>
+                </div>
+                <div>
+                    <img src={bann} />
+                    <p className="legend">General Manager</p>
+                </div>
+                <div>
+                    <img src={nonu} />
+                    <p className="legend">All Black Nonu</p>
+                </div>
+                <div>
+                    <img src={babies} />
+                    <p className="legend">My babies</p>
+                </div>
+                <div>
+                    <img src={kid} />
+                    <p className="legend">Kido</p>
+                </div>
+            </Carousel>
+        </div>
     );
 };
