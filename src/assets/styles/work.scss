@@ -1,0 +1,126 @@
+.work-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10%;
+    background-image: url("../../images/Work.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    background-position: top center, center;
+}
+
+.work-main {
+    margin-bottom: 5%;
+    margin-top: 10%;
+    &__heading {
+        font-size: 80px;
+    }
+    &__sub {
+        font-size: 40px;
+    }
+}
+
+.work-section {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.accordion {
+    cursor: pointer;
+}
+
+.accordion__img {
+    max-width: 300px;
+}
+
+.accordion-container {
+    margin: 10% 15%;
+    max-width: 300px;
+}
+
+.accordion-content {
+    display: block;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    transition: max-height 0.6s ease;
+}
+
+@media screen and (max-width: 1024px) {
+    .accordion__img {
+        width: 250px;
+    }
+    .accordion-container {
+        width: 250px;
+    }
+    .work-main {
+        margin-top: 10%;
+        &__heading {
+            font-size: 70px;
+        }
+        &__sub {
+            font-size: 30px;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .work-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .accordion__img {
+        width: 250px;
+    }
+    .accordion-container {
+        width: 250px;
+        margin: 15% 0;
+    }
+    .work-main {
+        margin-top: 15%;
+        &__heading {
+            font-size: 60px;
+        }
+        &__sub {
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .accordion__img {
+        width: 180px;
+    }
+    .accordion-container {
+        width: 180px;
+    }
+    .work-main {
+        margin-top: 20%;
+        &__heading {
+            font-size: 40px;
+        }
+        &__sub {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .accordion__img {
+        width: 160px;
+    }
+    .accordion-container {
+        width: 160px;
+    }
+    .work-main {
+        margin-top: 25%;
+        &__heading {
+            font-size: 30px;
+        }
+        &__sub {
+            font-size: 15px;
+        }
+    }
+}
