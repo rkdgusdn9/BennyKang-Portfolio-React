@@ -9,8 +9,8 @@ export const Work: React.FC = () => {
     return (
         <div className="work-container">
             <div className="work-main">
-                <h1 className="work-main__heading">Work experience</h1>
-                <h2 className="work-main__sub">My work experience</h2>
+                <div className="work-main__heading">Work experience</div>
+                <div className="work-main__sub">My work experience</div>
             </div>
             <div className="work-section">
                 <Accordion
