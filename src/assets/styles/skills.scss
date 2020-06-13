@@ -1,0 +1,114 @@
+.skills {
+    margin: 10% 0;
+    text-align: center;
+    &__h1 {
+        font-size: 400%;
+        text-shadow: 2px 2px 5px green;
+    }
+
+    &__h2 {
+        font-weight: 500px;
+        font-size: 150%;
+        text-align: center;
+        text-shadow: 1px 1px 2px green;
+    }
+}
+
+.skills-container {
+    padding: 20% 0;
+    background-image: url("../../images/Skills.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    background-position: top center, center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skills-section {
+}
+
+.logo-img {
+    margin: 4% 4%;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo-img {
+        width: 120px;
+        height: 80px;
+    }
+    .skills {
+        &__h1 {
+            font-size: 70px;
+        }
+        &__h2 {
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-img {
+        width: 90px;
+        height: 60px;
+    }
+    .skills {
+        &__h1 {
+            font-size: 60px;
+        }
+        &__h2 {
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .logo-img {
+        width: 150px;
+        margin: 10px 0;
+    }
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .skills-devide {
+        margin: 60% 0;
+        align-self: center;
+    }
+    .skills {
+        &__h1 {
+            font-size: 40px;
+        }
+        &__h2 {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo-img {
+        width: 140px;
+    }
+    .skills-devide {
+        margin: 70% 0;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo-img {
+        width: 120px;
+    }
+    .skills-devide {
+        margin: 75% 0;
+        align-self: center;
+    }
+    .skills {
+        &__h1 {
+            font-size: 30px;
+        }
+        &__h2 {
+            font-size: 15px;
+        }
+    }
+}
