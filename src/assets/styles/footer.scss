@@ -36,3 +36,67 @@
     font-size: 22px;
     font-weight: 500px;
 }
+
+@media screen and (max-width: 1024px) {
+    .footer-head {
+        text-align: center;
+        font-size: 30px;
+        padding-top: 1%;
+    }
+    .footer-name {
+        color: white;
+        padding-top: 0.5%;
+        padding-bottom: 1%;
+        letter-spacing: 8px;
+        font-size: 20px;
+        font-weight: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-head {
+        text-align: center;
+        font-size: 25px;
+        padding-top: 1%;
+    }
+    .footer-name {
+        color: white;
+        padding-top: 0.5%;
+        padding-bottom: 1%;
+        letter-spacing: 8px;
+        font-size: 17px;
+        font-weight: 500px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .footer-head {
+        text-align: center;
+        font-size: 25px;
+        padding-top: 1%;
+    }
+    .footer-name {
+        color: white;
+        padding-top: 0.5%;
+        padding-bottom: 1%;
+        letter-spacing: 8px;
+        font-size: 15px;
+        font-weight: 500px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer-head {
+        text-align: center;
+        font-size: 25px;
+        padding-top: 1%;
+    }
+    .footer-name {
+        color: white;
+        padding-top: 0.5%;
+        padding-bottom: 1%;
+        letter-spacing: 8px;
+        font-size: 13px;
+        font-weight: 500px;
+    }
+}
