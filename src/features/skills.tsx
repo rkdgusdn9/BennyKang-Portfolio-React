@@ -11,7 +11,7 @@ export const Skills: React.FC = () => {
     return (
         <div id="skills" className="skills">
             <div className="skills__h1">Key Strengths</div>
-            <div className="skills__h2">My Strengths</div>
+            <div className="skills__h2">My Skill sets</div>
             <div className="skills-container">
                 <div className="skills-devide">
                     <div className="skills-section">

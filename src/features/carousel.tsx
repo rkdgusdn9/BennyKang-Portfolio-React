@@ -23,7 +23,7 @@ export const CarouSel: React.FC = () => {
     return (
         <div id="gallery" className="gallery-container">
             <div className="gallery-container__heading">Gallery</div>
-            <div className="gallery-container__sub">My album</div>
+            <div className="gallery-container__sub">My Photos</div>
             <Carousel autoPlay infiniteLoop className="carousel-slider">
                 <div>
                     <img src={data} />
@@ -87,7 +87,7 @@ export const CarouSel: React.FC = () => {
                 </div>
                 <div>
                     <img src={babies} />
-                    <p className="legend">My babies</p>
+                    <p className="legend">My baby</p>
                 </div>
                 <div>
                     <img src={kid} />

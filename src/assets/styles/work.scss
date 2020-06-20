@@ -17,12 +17,14 @@
     &__heading {
         font-size: 400%;
         text-shadow: 2px 2px 5px royalblue;
+        font-family: Comic Sans MS;
     }
     &__sub {
         font-weight: 500px;
         font-size: 150%;
         text-align: center;
         text-shadow: 1px 1px 2px royalblue;
+        font-family: Comic Sans MS;
     }
 }
 
@@ -56,6 +58,7 @@
     word-wrap: break-word;
     margin-bottom: 10px;
     font-size: 22px;
+    font-family: Gill Sans, sans-serif;
     letter-spacing: 1px;
     transition: max-height 0.6s ease;
 }

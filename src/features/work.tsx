@@ -10,7 +10,7 @@ export const Work: React.FC = () => {
         <div id="work" className="work-container">
             <div className="work-main">
                 <div className="work-main__heading">Work experience</div>
-                <h2 className="work-main__sub">My work experience</h2>
+                <h2 className="work-main__sub">My work experiences</h2>
             </div>
             <div className="work-section">
                 <Accordion

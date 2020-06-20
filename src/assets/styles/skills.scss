@@ -4,6 +4,7 @@
     &__h1 {
         font-size: 400%;
         text-shadow: 2px 2px 5px green;
+        font-family: Comic Sans MS;
     }
 
     &__h2 {
@@ -11,6 +12,7 @@
         font-size: 150%;
         text-align: center;
         text-shadow: 1px 1px 2px green;
+        font-family: Comic Sans MS;
     }
 }
 
@@ -23,9 +25,6 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-.skills-section {
 }
 
 .logo-img {

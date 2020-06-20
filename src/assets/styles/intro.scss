@@ -23,6 +23,7 @@
     &__h1 {
         font-size: 700%;
         text-shadow: 2px 2px 5px indianred;
+        font-family: Comic Sans MS;
     }
     &__h1::after {
         content: " ";
@@ -39,6 +40,7 @@
         font-size: 200%;
         text-align: center;
         text-shadow: 1px 1px 2px indianred;
+        font-family: Comic Sans MS;
     }
 }
 

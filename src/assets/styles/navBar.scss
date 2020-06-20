@@ -111,10 +111,11 @@
     width: 100%;
 
     &__text {
+        font-family: Comic Sans MS;
         display: flex;
         font-size: 18px;
         margin-right: 28px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         color: dimgray;
         text-decoration: none;
         text-transform: uppercase;
