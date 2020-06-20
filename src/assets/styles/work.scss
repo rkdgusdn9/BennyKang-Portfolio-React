@@ -38,6 +38,9 @@
 
 .accordion__img {
     max-width: 300px;
+    &:hover {
+        box-shadow: 2px 5px 5px 5px lightblue;
+    }
 }
 
 .accordion-container {
@@ -46,10 +49,14 @@
 }
 
 .accordion-content {
+    text-align: left;
+    margin-top: 5%;
     display: block;
     overflow: hidden;
     word-wrap: break-word;
     margin-bottom: 10px;
+    font-size: 22px;
+    letter-spacing: 1px;
     transition: max-height 0.6s ease;
 }
 
