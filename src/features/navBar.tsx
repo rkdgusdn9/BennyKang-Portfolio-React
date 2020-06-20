@@ -31,16 +31,24 @@ export const NavBar: React.FC = () => {
             <div id="navibar" className={`nav-items-container ${setActive}`}>
                 <ul className="list-items">
                     <li>
-                        <a className="list-items__text">About</a>
+                        <a href="#about" className="list-items__text">
+                            About
+                        </a>
                     </li>
                     <li>
-                        <a className="list-items__text">Skills</a>
+                        <a href="#skills" className="list-items__text">
+                            Skills
+                        </a>
                     </li>
                     <li>
-                        <a className="list-items__text">Work</a>
+                        <a href="#work" className="list-items__text">
+                            Work
+                        </a>
                     </li>
                     <li>
-                        <a className="list-items__text">Gallery</a>
+                        <a href="#gallery" className="list-items__text">
+                            Gallery
+                        </a>
                     </li>
                     <li>
                         <a className="list-items__text">Contact</a>

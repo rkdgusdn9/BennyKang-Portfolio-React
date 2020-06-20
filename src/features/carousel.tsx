@@ -21,7 +21,7 @@ import kid from "../images/carous/Kid.png";
 
 export const CarouSel: React.FC = () => {
     return (
-        <div className="gallery-container">
+        <div id="gallery" className="gallery-container">
             <div className="gallery-container__heading">Gallery</div>
             <div className="gallery-container__sub">My album</div>
             <Carousel autoPlay infiniteLoop className="carousel-slider">

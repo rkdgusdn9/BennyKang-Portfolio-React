@@ -9,7 +9,7 @@ import arduino from "../images/logos/Arduino.png";
 
 export const Skills: React.FC = () => {
     return (
-        <div className="skills">
+        <div id="skills" className="skills">
             <div className="skills__h1">Key Strengths</div>
             <div className="skills__h2">My Strengths</div>
             <div className="skills-container">
