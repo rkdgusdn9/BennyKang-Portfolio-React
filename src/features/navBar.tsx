@@ -51,7 +51,9 @@ export const NavBar: React.FC = () => {
                         </a>
                     </li>
                     <li>
-                        <a className="list-items__text">Contact</a>
+                        <a href="#contact" className="list-items__text">
+                            Contact
+                        </a>
                     </li>
                 </ul>
             </div>

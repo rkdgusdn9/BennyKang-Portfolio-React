@@ -4,6 +4,7 @@ import { Intro } from "../features/Intro";
 import { Work } from "../features/work";
 import { Skills } from "../features/skills";
 import { About } from "../features/about";
+import { Contact } from "../features/contact";
 
 export const HomePage: React.FC = () => {
     return (
@@ -17,6 +18,8 @@ export const HomePage: React.FC = () => {
             <Work />
 
             <CarouSel />
+
+            <Contact />
         </div>
     );
 };
