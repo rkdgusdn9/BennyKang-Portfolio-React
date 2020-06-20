@@ -79,6 +79,9 @@
             font-size: 30px;
         }
     }
+    .accordion-content {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -103,6 +106,9 @@
             font-size: 30px;
         }
     }
+    .accordion-content {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 414px) {
@@ -121,6 +127,15 @@
             font-size: 20px;
         }
     }
+    .accordion-content {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .accordion-content {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -138,5 +153,8 @@
         &__sub {
             font-size: 15px;
         }
+    }
+    .accordion-content {
+        font-size: 13px;
     }
 }
