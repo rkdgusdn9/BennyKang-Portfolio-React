@@ -39,7 +39,9 @@ export const Footer: React.FC = () => {
                 </a>
             </div>
             <div className="footer-final">
-                <div className="footer-name">BEN KANG</div>
+                <a href="/" className="footer-name">
+                    BEN KANG
+                </a>
                 <div>©Copyright 2020. All right reserved.</div>
                 <div>Powered by Benny Kang</div>
             </div>
