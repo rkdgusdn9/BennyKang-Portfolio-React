@@ -1,0 +1,186 @@
+.about-container {
+    background-image: url("../../images/About.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+    background-position: top center, center;
+    padding: 20% 20%;
+}
+
+.about-main {
+    text-align: center;
+    padding-bottom: 15%;
+    &__heading {
+        font-size: 400%;
+        text-shadow: 2px 2px 5px burlywood;
+    }
+    &__sub {
+        font-weight: 500px;
+        font-size: 150%;
+        text-align: center;
+        text-shadow: 1px 1px 2px burlywood;
+    }
+}
+
+.about-image {
+    border-radius: 10%;
+    height: 850px;
+}
+
+.about-section2 {
+    text-align: center;
+    margin: 5% 5%;
+}
+
+.about-benny {
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+}
+
+.about-content {
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: 30px;
+    word-spacing: 7px;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 1650px) {
+    .about-benny {
+        width: 300px;
+    }
+    .about-content {
+        font-size: 25px;
+        word-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .about-image {
+        width: 400px;
+    }
+    .about-benny {
+        width: 200px;
+    }
+    .about-section2 {
+        margin-left: 5%;
+    }
+    .about-content {
+        font-size: 20px;
+        word-spacing: 3px;
+    }
+    .cv-img {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-image {
+        width: 330px;
+        height: 500px;
+    }
+    .about-main {
+        &__heading {
+            font-size: 70px;
+        }
+        &__sub {
+            font-size: 30px;
+        }
+    }
+    .about-content {
+        font-size: 16px;
+        word-spacing: 2px;
+    }
+    .cv-img {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        background-size: cover;
+    }
+    .about-main {
+        margin-top: 15%;
+    }
+    .about-image {
+        width: 450px;
+        height: 350px;
+        margin-bottom: 10%;
+    }
+    .about-section {
+        flex-direction: column;
+    }
+    .about-content {
+        font-size: 20px;
+        word-spacing: 2px;
+        margin-top: 2%;
+    }
+    .about-main {
+        &__heading {
+            font-size: 60px;
+        }
+        &__sub {
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .about-image {
+        width: 250px;
+        height: 200px;
+    }
+    .about-main {
+        margin-top: 25%;
+        &__heading {
+            font-size: 40px;
+        }
+        &__sub {
+            font-size: 20px;
+        }
+    }
+    .about-benny {
+        width: 175px;
+    }
+    .about-content {
+        font-size: 15px;
+        word-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .about-image {
+        width: 225px;
+        height: 190px;
+    }
+    .about-main {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about-image {
+        width: 200px;
+        height: 180px;
+    }
+    .about-main {
+        &__heading {
+            font-size: 30px;
+        }
+        &__sub {
+            font-size: 15px;
+        }
+    }
+    .about-benny {
+        width: 150px;
+    }
+    .about-content {
+        font-size: 13px;
+        word-spacing: 1px;
+    }
+}
