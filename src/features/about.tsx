@@ -11,15 +11,16 @@ export const About: React.FC = () => {
                 <div className="about-main__sub">Who am I</div>
             </div>
             <div className="about-section">
-                <img className="about-image" src={abtlogo} />
+                {/* <img className="about-image" src={abtlogo} /> */}
                 <div className="about-section2">
                     <img className="about-benny" src={benny} />
                     <div className="about-content">
-                        A software developer inspired by the iron man.
-                        <br /> I aim to broaden my experience and skills in
-                        software development and Information security, in an
-                        organization that values their people and encourages
-                        personal development.
+                        I took a new challenge in IT after several years of
+                        working in the hospitality industry. I enjoy being
+                        challenged and engaging with projects that require me to
+                        work outside my comfort and knowledge set, as continuing
+                        to learn new languages and development techniques are
+                        important to me and the success of the organization.
                     </div>
                     <Button />
                 </div>
