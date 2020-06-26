@@ -1,5 +1,5 @@
 import React from "react";
-import Iron from "../images/IronBen.gif";
+import Iron from "../images/helloworld.gif";
 
 export const Intro: React.FC = () => {
     return (
@@ -7,9 +7,7 @@ export const Intro: React.FC = () => {
             <img className="intro-img" src={Iron} />
             <div className="head-container">
                 <div className="head-container__h1">BEN KANG</div>
-                <div className="head-container__h2">
-                    Software Developer Iron Man
-                </div>
+                <div className="head-container__h2">Software Developer</div>
             </div>
         </div>
     );

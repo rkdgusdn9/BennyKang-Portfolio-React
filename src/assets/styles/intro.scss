@@ -14,8 +14,8 @@
     width: 350px;
     height: 350px;
     margin-right: 15%;
-    //border: 1px solid;
-    //box-shadow: 3px 7px 7px indianred;
+    border: 1px solid;
+    box-shadow: 1px 1px 10px 6px gray;
 }
 
 .head-container {
@@ -67,8 +67,8 @@
 @media screen and (max-width: 768px) {
     .intro-img {
         margin-top: 5%;
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
     .head-container {
         &__h1 {
@@ -90,8 +90,8 @@
         margin-top: 20%;
         margin-left: auto;
         margin-right: auto;
-        width: 280px;
-        height: 280px;
+        width: 250px;
+        height: 250px;
     }
     .intro-container {
         display: flex;
